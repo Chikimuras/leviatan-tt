@@ -18,5 +18,6 @@ function isPalindrome($string): bool
 
     return true;
 }
+$user_input = readline('Tapez un mot: ');
 
-echo isPalindrome('Engage le jeu que je le gagne') ? 'True' : 'False';
+echo isPalindrome($user_input) ? 'True' : 'False';
